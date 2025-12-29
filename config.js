@@ -1,26 +1,31 @@
 window.CONFIG = {
-  siteName: "Celebrity Recognition Game",
+  siteName: "NBA Recognition Game",
 
-  title: "Celebrity Recognition Game",
-  subtitle: "Test how well you recognize famous people.",
+  title: "NBA Recognition Game",
+  subtitle: "How well do you recognize NBA players?",
 
-  description: "Test how well you recognize famous people.",
+  description: "Test how well you recognize NBA players. One attempt per face.",
 
-  datasetUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS52keBl1q6F8AVumY7iwghhuYyxm5n9XJdyHFVlBIdWTp4hN-IPvwseIo5cjJO_iUzJp7H6EQMIT6E/pub?output=csv",
+  datasetUrl: "", // <-- we’ll fill this next
 
   totalPerRound: 20,
   pointsPerCorrect: 10,
 
-  itemLabel: "Face",
+  itemLabel: "Player",
 
   shareTemplate:
-    "I scored {score} / {max} on Celebrity Recognition Game. Can you beat me?",
-  shareUrl: "https://celebrityrecognitiongame.com",
+    "I scored {score} / {max} on NBA Recognition Game. Can you beat me?",
+  shareUrl: "https://nbarecognitiongame.com",
 
   endMessages: [
-    { min: 160, text: "You really know your pop culture." },
-    { min: 120, text: "Solid — but you left points on the table." },
-    { min: 80,  text: "You know the faces. The names are harder." },
-    { min: 0,   text: "Brutal round. Want another shot?" }
-  ]
+    { min: 160, text: "You really know your NBA." },
+    { min: 120, text: "Solid — but you missed some legends." },
+    { min: 80,  text: "You know the faces. The names are tougher." },
+    { min: 0,   text: "That was rough. Time to brush up on NBA history." }
+  ],
+
+  background: {
+    start: "#fff1e6",
+    end: "#ffd8b5"
+  }
 };
