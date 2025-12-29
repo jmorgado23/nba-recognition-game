@@ -1,3 +1,8 @@
+if (CONFIG.background) {
+  document.documentElement.style.setProperty("--bg-start", CONFIG.background.start);
+  document.documentElement.style.setProperty("--bg-end", CONFIG.background.end);
+}
+
 const CSV_URL = CONFIG.datasetUrl;
 const TOTAL = CONFIG.totalPerRound;
 
