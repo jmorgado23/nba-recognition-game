@@ -141,17 +141,3 @@ function shareScore() {
 
   gtag('event', 'share_score');
 }
-
-function renderCrossLinks() {
-  if (!CONFIG.relatedGames) return;
-
-  const el = document.getElementById("crossLinks");
-  if (!el) return;
-
-  const links = CONFIG.relatedGames
-    .map(g => `<a href="${g.url}">${g.name}</a>`)
-    .join(" · ");
-
-  el.innerHTML = `Or try another recognition game:<br>${links}`;
-}
-
