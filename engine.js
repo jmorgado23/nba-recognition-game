@@ -117,6 +117,7 @@ function endRound() {
   finalScore.innerText = `Your score: ${score} / ${TOTAL*CONFIG.pointsPerCorrect}`;
   headline.innerText =
     CONFIG.endMessages.find(m => score >= m.min).text;
+  renderCrossLinks();
 }
 
 function shareScore() {
