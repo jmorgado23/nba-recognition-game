@@ -18,9 +18,9 @@ window.CONFIG = {
   shareUrl: "https://nbarecognitiongame.com",
 
   endMessages: [
-    { min: 160, text: "You really know your NBA." },
-    { min: 120, text: "Solid — but you missed some legends." },
-    { min: 80,  text: "You know the faces. The names are tougher." },
+    { min: 16, text: "You really know your NBA." },
+    { min: 12, text: "Solid — but you missed some legends." },
+    { min: 8,  text: "You know the faces. The names are tougher." },
     { min: 0,   text: "That was rough. Time to brush up on NBA history." }
   ],
 
