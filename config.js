@@ -9,7 +9,7 @@ window.CONFIG = {
   datasetUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYQt_cDhvn_wrz5Kaonhlx_BKEaD9dSdEAYpjWvnGVngn0HN7B0FoRRAuXXzWrLCy1rh3VStPCg-2_/pub?output=csv", 
 
   totalPerRound: 20,
-  pointsPerCorrect: 10,
+  pointsPerCorrect: 1,
 
   itemLabel: "Player",
 
