@@ -255,14 +255,20 @@ button {
       <!-- GAME -->
       <div id="gameScreen" class="hidden">
         <div id="progress"></div>
+      
         <div class="image-wrapper">
           <img id="celebrityImage" alt="NBA player">
         </div>
+      
+        <p id="imageStatus" class="small"></p>
+      
         <input id="guessInput" placeholder="Who is this?" autocomplete="off">
+      
         <div class="buttons">
           <button class="primary" onclick="submitGuess()">Submit</button>
           <button class="secondary" onclick="skip()">Skip</button>
         </div>
+      
         <p id="feedback"></p>
       </div>
 
@@ -297,3 +303,4 @@ button {
 
 </body>
 </html>
+
